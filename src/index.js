@@ -1,7 +1,7 @@
-var Foo = require('./Foo');
+import Foo, { defaultFirstName } from './Foo'; 
 var Bar = require('./Bar');
 
-var foo = new Foo({ firstName: 'fizz', lastName: 'buzz' });
+var foo = new Foo({ firstName: defaultFirstName, lastName: 'buzz' });
 console.log(foo.fullName());
 
 var bar = new Bar({ firstName: 'fizz', lastName: 'buzz' });

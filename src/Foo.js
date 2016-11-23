@@ -9,4 +9,7 @@ Foo.prototype.fullName = function(){
   return camelize(this.firstName + '_' + this.lastName);
 };
 
-module.exports = Foo;
+export const defaultFirstName = 'Prof';
+
+export default Foo;
+
