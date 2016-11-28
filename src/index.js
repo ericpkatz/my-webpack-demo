@@ -1,4 +1,4 @@
-import Foo, { defaultFirstName } from './Foo'; 
+import Foo, { defaultFirstName } from './models/Foo'; 
 var Bar = require('./Bar');
 
 var foo = new Foo({ firstName: defaultFirstName, lastName: 'buzz' });
